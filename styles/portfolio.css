@@ -1,14 +1,44 @@
-body {
-  background-color: rgb(243, 243, 236);
-}
-h1 {
-  font-family: "DM Serif Text", serif;
-  font-weight: 400;
-  font-style: normal;
+:root {
+  --primary-color: rgb(102, 40, 40);
+  --secondary-color: rgb(243, 243, 243);
+  --primary-font-family: "DM Serif Text", serif;
+  --secondary-font-family: "Rethink Sans", serif;
 }
 
+body {
+  font-family: var(--secondary-font-family);
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p,
 h2 {
-  font-family: "Rethink Sans", serif;
+  font-family: var(--secondary-font-family);
   font-weight: 400;
   font-style: normal;
+  font-size: 50px;
+  margin: 0;
+  line-height: 2;
+  color: var(--primary-color);
+}
+
+.hero h1 {
+  font-family: var(--primary-font-family);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  color: var(--primary-color);
+}
+
+.btn-branding {
+  background-color: var(--primary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: white;
 }
