@@ -82,4 +82,26 @@ p {
   .hero {
     padding: 80px 20px;
   }
+  .about-section h1 {
+    font-size: 38px;
+  }
+
+  .about-section p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .about-section h2 {
+    font-size: 24px;
+  }
+  .about-section {
+    text-align: center;
+  }
+}
+
+.about-section {
+  padding: 80px 20px;
+}
+.about-section-content {
+  margin: 30px;
 }
