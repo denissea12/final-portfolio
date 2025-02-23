@@ -97,6 +97,10 @@ p {
   .content-container {
     text-align: center;
   }
+
+  nav a {
+    font-size: 10px;
+  }
 }
 
 .content-container {
@@ -113,4 +117,39 @@ p {
 
 .content p {
   font-size: 14px;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.small-logo {
+  max-width: 50px;
+}
+
+nav {
+  padding: 20px;
+  line-height: 40px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  font-weight: 600;
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
