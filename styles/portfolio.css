@@ -47,6 +47,10 @@ h1 {
   font-family: var(--primary-font-family);
 }
 
+h4 a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
 p {
   font-size: 22px;
   line-height: 30px;
